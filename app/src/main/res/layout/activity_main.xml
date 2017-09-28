@@ -17,7 +17,7 @@
         android:text="Home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true" />
 
     <Button
         android:id="@+id/btnFirst"
@@ -25,7 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/btnHome"/>
+        android:layout_toRightOf="@id/btnHome"
+        android:onClick="Oreo"/>
 
     <Button
         android:id="@+id/btnSecond"
@@ -33,7 +34,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/btnFirst"/>
+        android:layout_toRightOf="@id/btnFirst"
+        android:onClick="Nougat"/>
 
     <Button
         android:id="@+id/btnThird"
@@ -41,7 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/btnSecond"/>
+        android:layout_toRightOf="@id/btnSecond"
+        android:onClick="KitKat"/>
 
 
 </RelativeLayout>

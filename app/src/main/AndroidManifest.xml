@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity.Display_KitKat" />
+        <activity android:name=".Activity.Display_Nougat" />
+        <activity android:name=".Activity.Display_Oreo"></activity>
     </application>
 
 </manifest>
