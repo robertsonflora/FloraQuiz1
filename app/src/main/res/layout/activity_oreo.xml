@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flora.floraquiz1.Activity.Display_Oreo">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tv_codename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="codename"
+        android:layout_toRightOf="@id/iv_logo"/>
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="version"
+        android:layout_below="@id/tv_codename"
+        android:layout_alignLeft="@id/tv_codename"/>
+
+    <TextView
+        android:id="@+id/tv_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API"
+        android:layout_alignBaseline="@id/tv_version"
+        android:layout_toRightOf="@id/tv_version"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release Date"
+        android:layout_below="@+id/tv_version"
+        android:layout_alignLeft="@+id/tv_codename" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:text="Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="Home"/>
+
+    <Button
+        android:id="@+id/btnFirst"
+        android:text="Oreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btnHome" />
+
+    <Button
+        android:id="@+id/btnSecond"
+        android:text="Nougat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btnFirst"
+        android:onClick="Nougat"/>
+
+    <Button
+        android:id="@+id/btnThird"
+        android:text="KitKat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btnSecond"
+        android:onClick="KitKat"/>
+
+</RelativeLayout>
